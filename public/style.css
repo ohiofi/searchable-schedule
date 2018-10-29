@@ -1,0 +1,121 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+/* #whiteNumber,#brownNumber,#hollandLopNumber,#carrotsNumber{
+  width:50px;
+ }
+*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+}
+
+#alertBox{
+  display:none;
+}
+
+ h2 {
+  font-weight: bold;
+  color: #17a2b8;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: #17a2b8;
+  display: inline-block;
+  width: 100%;
+  max-width: 640px;
+  border-radius: 7px;
+} 
+
+button,label.btn {
+  font-size: 16px;
+  border-radius: 7px;
+  background-color: #eee;
+  border: 1px solid grey;
+  box-shadow: 2px 2px #17a2b8;
+  cursor: pointer;
+  text-align:left;
+}
+label{
+  margin:0!important;
+}
+span.small{
+  margin-left:5px;
+}
+
+table{
+  margin-top:100px;
+}
+
+table tr:hover td {
+background-color: rgba(23, 162, 184, 0.1) !important;
+}
+
+.table td, .table th{
+  padding:10px 4px 10px 4px !important;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+button:hover,label.btn:hover {
+  background-color: yellow;
+}
+
+button:active {
+  box-shadow: none;
+}
+ul {
+  margin:0;
+}
+.form-group {
+    margin-bottom:0;
+}
+li {
+/*   margin: 0px 5px 0 5px; */
+  vertical-align: text-top;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+footer > a {
+  color: #BBBBBB;
+}
+
+.nicejob {
+  text-decoration: line-through;
+}
+
+.alert {
+    position: relative;
+    margin-bottom: 0;
+    padding: 0.75rem 1.25rem;
+}
+
+button.navbar-toggler{
+  position: fixed;
+    top:10px;
+    right:10px;
+}
